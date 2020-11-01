@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Razor";
+}
+
+<h2>Razor</h2>
+
+@foreach (var i in ViewBag.data)
+{
+    @i
+}
+<hr/>
+@foreach (var i in ViewBag.data)
+{
+    @(i)<a> </a>;
+}
+<hr/>
+<ul>
+    @foreach (var i in ViewBag.data)
+    {
+  <li>@(i)</li>
+    }
+</ul>
